@@ -13,6 +13,8 @@ Prerequisites: No prior spending required; zero totals are a legitimate result.
 
 ## Installation and removal
 
+Install this published repository: `gemini extensions install https://github.com/daehoonkwon-hash/klisten-metermcp-gemini-extension`. The local path command below is an alternative for downloaded source.
+
 From the parent directory run `gemini extensions install ./klisten-metermcp`. Enter your key only in the sensitive setting. Inspect `/mcp` in Gemini CLI. Uninstall with `gemini extensions uninstall klisten-metermcp`; separately revoke the key in your account. Uninstall does not delete hosted data. If secure settings are unavailable, stop rather than hardcode a key.
 
 Expected tools: `metermcp_usage_get`.
@@ -30,7 +32,7 @@ Expected tools: `metermcp_usage_get`.
 
 This is an integration package, not a purchase, paid subscription, safety certification or service SLA. Existing product prerequisites and pricing apply; installation itself does not charge or replenish credit. Do not infer that every underlying operation is free. No money transfer or paid execution is authorized by installing. Any paid action or data mutation requires the account holder’s authorization. Missing records and denied access are errors, not successful demonstrations.
 
-Gemini CLI 0.63.0 native MCP library authenticated discovery: PASS (2026-10-13). This was a scripted library harness, not the interactive Gemini application or a model conversation. Gemini conversation tools/call: NOT_VERIFIED. Local installation/removal evidence is recorded separately and does not prove service or conversation success. Prior revoked validation keys cannot be reused. GitHub distribution and the gallery discovery topic do not establish gallery listing or approval.
+Gemini CLI 0.63.0 native MCP library tool discovery: PASS (2026-10-13). Discovery alone does not prove authentication enforcement; protected call results are listed separately. This was a scripted library harness, not the interactive Gemini application or a model conversation. Gemini conversation tools/call: NOT_VERIFIED. Local installation/removal evidence is recorded separately and does not prove service or conversation success. Prior revoked validation keys cannot be reused. GitHub distribution and the gallery discovery topic do not establish gallery listing or approval.
 
 Documentation: https://klisten.co.kr/docs.html
 Privacy: https://klisten.co.kr/privacy.html
