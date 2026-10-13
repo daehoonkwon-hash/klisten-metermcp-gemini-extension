@@ -1,0 +1,25 @@
+{
+  "name": "klisten-metermcp",
+  "version": "0.1.0",
+  "description": "Read this API key\u2019s current usage reservation totals by UTC day.",
+  "mcpServers": {
+    "metermcp": {
+      "httpUrl": "https://api.klisten.co.kr/mcp/metermcp",
+      "headers": {
+        "Authorization": "Bearer ${KLISTEN_METERMCP_API_KEY}"
+      },
+      "timeout": 20000,
+      "includeTools": [
+        "metermcp_usage_get"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "MeterMCP API key",
+      "description": "Your own dedicated least-privilege key; never enter it in chat.",
+      "envVar": "KLISTEN_METERMCP_API_KEY",
+      "sensitive": true
+    }
+  ]
+}

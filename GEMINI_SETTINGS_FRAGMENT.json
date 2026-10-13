@@ -1,0 +1,9 @@
+{
+  "security": {
+    "environmentVariableRedaction": {
+      "allowed": [
+        "KLISTEN_METERMCP_API_KEY"
+      ]
+    }
+  }
+}
